@@ -23,6 +23,7 @@ exports.createBook = (req, res, next) => {
 // @desc  update book
 // @route  PUT /api/v1/books/:id
 // @access private
+//Test
 exports.updateBook = (req, res, next) => {
   res.status(200).json({ success: true, msg: `Update book ${req.params.id}` });
 };
